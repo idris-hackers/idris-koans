@@ -1,3 +1,5 @@
+*.ibc
+*~
 dist
 cabal-dev
 *.o
