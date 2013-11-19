@@ -2,21 +2,21 @@
 module Koans.Equality
 
 equalityEq : Bool
-equalityEq = __ == true
+equalityEq = ?fillme1 == True
 
 equalityNeq : Bool
-equalityNeq = __ == 3
+equalityNeq = ?fillme2 == 3
 
 equalityGeq : Bool
-equalityGeq = __ >= 4
+equalityGeq = ?fillme3 >= 4
 
 equalityGtr : Bool
-equalityGtr = __ > 4
+equalityGtr = ?fillme4 > 4
 
 equalityLeq : Bool
-equalityLeq = __ <= 5
+equalityLeq = ?fillme5 <= 5
 
 equalityLess : Bool
-equalityLess = __ < 6
+equalityLess = ?fillme6 < 6
 
 -- --------------------------------------------------------------------- [ EOF ]

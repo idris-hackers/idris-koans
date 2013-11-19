@@ -2,15 +2,15 @@
 module Koans.Boolean
 
 logicalAND : Bool
-logicalAND = True && __ == True
+logicalAND = True && ?fillme1 == True
 
 logicalOR : Bool
-logicalOR = False || __ == False
+logicalOR = False || ?fillme2 == False
 
 logicalNOT : Bool
-logicalNOT = not __ == False
+logicalNOT = not ?fillme3 == False
 
 logicalPredicate : Bool
-logicalPredicate = not ( __ && True) || __ && False == True
+logicalPredicate = not ( ?fillme4 && True) || ?fillme5 && False == True
 
 -- --------------------------------------------------------------------- [ EOF ]
