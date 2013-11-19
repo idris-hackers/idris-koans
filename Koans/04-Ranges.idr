@@ -1,3 +1,4 @@
+-- | Exercises on Ranges
 module Koans.Ranges
 
 rangeNums : Bool
@@ -12,3 +13,4 @@ stepDown = __ [20,17..1]
 stopMe : List Integer
 stopMe = [1..]
 
+-- --------------------------------------------------------------------- [ EOF ]

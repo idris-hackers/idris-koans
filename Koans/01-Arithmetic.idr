@@ -1,4 +1,5 @@
-module Arithmetic
+-- | Some simple arithmetic exercises.
+module Koans.Arithmetic
 
 -- | There were 32 B/W Episodes of Ivor the Engine, and 72 episodes
 -- were produced altogether. How many colour episodes were produced?
@@ -27,3 +28,4 @@ division = 26 / __ == 2
 parentheses : Int
 parentheses = __
 
+-- --------------------------------------------------------------------- [ EOF ]

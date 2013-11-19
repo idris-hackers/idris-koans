@@ -1,4 +1,4 @@
--- | Equality Operations
+-- | Exercises on Equality.
 module Koans.Equality
 
 equalityEq : Bool
@@ -18,3 +18,5 @@ equalityLeq = __ <= 5
 
 equalityLess : Bool
 equalityLess = __ < 6
+
+-- --------------------------------------------------------------------- [ EOF ]

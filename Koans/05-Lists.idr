@@ -1,8 +1,11 @@
+-- | Exercises on Lists
 module Koans.Lists
 
+-- | What is the type of this list.
 nats : __
 nats = [0,1,2,3,4,5,6,7,9]
 
+-- | Reproduce the list [0,1,3,5,7,9,2,4,6,8] using the following functions.
 odds : List Int
 odds = [1,3,5,7,9]
 
@@ -14,6 +17,8 @@ zero = 0
 
 zeroOddsEvens : Bool
 zeroOddsEvens = __ ++ odds ++ __ == [0,1,3,5,7,9,2,4,6,8]
+
+-- | Complete the result of following functions.
 
 headOList : Bool
 headOList = __ == head [5,4,3,2,1]
@@ -48,6 +53,8 @@ timesAllTheNnumbers = __ == product [1..10]
 elementOrNot : Bool
 elementOrNot = elem 4 __ == True
 
+-- | Make this function true
 stopPete : List Nat
-stopPete = repeat 3
+stopPete = repeat 3 == [3,3,3,3]
 
+-- --------------------------------------------------------------------- [ EOF ]

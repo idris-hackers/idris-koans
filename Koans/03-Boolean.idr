@@ -1,3 +1,4 @@
+-- | Exercises on Boolean Relations.
 module Koans.Boolean
 
 logicalAND : Bool
@@ -12,3 +13,4 @@ logicalNOT = not __ == False
 logicalPredicate : Bool
 logicalPredicate = not ( __ && True) || __ && False == True
 
+-- --------------------------------------------------------------------- [ EOF ]
