@@ -11,6 +11,6 @@ logicalNOT : Bool
 logicalNOT = not ?fillme3 == False
 
 logicalPredicate : Bool
-logicalPredicate = not ( ?fillme4 && True) || ?fillme5 && False == True
+logicalPredicate = not ( ?fillme4 && True) || (?fillme5 && False) == True
 
 -- --------------------------------------------------------------------- [ EOF ]
