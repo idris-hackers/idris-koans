@@ -23,6 +23,8 @@ The files should be attempted in the following order:
 1. 06-ListComprehensions.idr
 
 Idris Koans is in early development and so the list of Koans and method of interaction is primitive.
+If you would like to contribute please feel free to do so.
+However, please read [CONTRIBUTING.md] first.
 We advised the best way to attempt each Koan is to edit the Koan file in your favourite editor, and compile each Koan in the terminal using the Idris compiler.
 In future a more interactive environment may be planned.
 Either a CLI/REPL environment _a la_ [Clojure Koans](http://clojurekoans.com/), or Web Based _a la_ [Clojurescript Koans](http://clojurescriptkoans.com/) may be added.
