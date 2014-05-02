@@ -2,7 +2,7 @@
 module Koans.Lists
 
 -- | What is the type of this list.
-nats : List Integer
+nats : ?someType
 nats = [0,1,2,3,4,5,6,7,9]
 
 -- | Reproduce the list [0,1,3,5,7,9,2,4,6,8] using the following functions.
