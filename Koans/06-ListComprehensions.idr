@@ -2,7 +2,7 @@ module Koans.ListComprehensions
 
 -- | What is the result of the List Comprehension.
 listCompZero : Bool
-listCompZero = ?fillme1 == [ x + x | x <- [1..5] ]
+listCompZero = ?fillme1 == with Classes [ x + x | x <- [1..5] ]
 
 -- | Write a list comprehension that returns all the numbers divisible by four, doubled.
 myFirstListComp : List Integer -> List Integer
