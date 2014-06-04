@@ -36,13 +36,13 @@ lengthOList : Bool
 lengthOList = ?fillme8 == length [1,2,3,4,5]
 
 reverseTheList : Bool
-reverseTheList = ?fillme9 reverse [1,2,3,4,5]
+reverseTheList = ?fillme9 == reverse [1,2,3,4,5]
 
 first3 : Bool
 first3 = ?fillme10 == take 3 [1..10]
 
 drop3 : Bool
-drop3 = ?fillme11 drop 3 [1..10]
+drop3 = ?fillme11 == drop 3 [1..10]
 
 countAllTheNumbers : Bool
 countAllTheNumbers = ?fillme12 == sum [1..10]
@@ -54,7 +54,7 @@ elementOrNot : Bool
 elementOrNot = elem 4 ?fillme14 == True
 
 -- | Make this function true
-stopPete : List Nat
+stopPete : Bool
 stopPete = ?fillme15 (repeat 3) == [3,3,3,3]
 
 -- --------------------------------------------------------------------- [ EOF ]
