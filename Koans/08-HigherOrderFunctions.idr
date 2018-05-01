@@ -28,7 +28,7 @@ mySecondScan : Bool
 mySecondScan = scanl ?fillme7 5 [1,2,10,1] == [5,5,5,10,10]
 
 myThirdScan : Bool
-myThirdScan = scanl (/) 64 [4,2,4] == ?fillme8
+myThirdScan = scanl (div) 64 [4,2,4] == ?fillme8
 
 
 -- TODO Add examples for scanr and foldr
