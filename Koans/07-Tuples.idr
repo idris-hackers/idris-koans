@@ -1,5 +1,6 @@
 module Koans.Tuples
 
+import Data.Vect
 -- Complete the following functions
 
 firstPair : Bool

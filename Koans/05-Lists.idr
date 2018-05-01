@@ -1,6 +1,8 @@
 -- | Exercises on Lists
 module Koans.Lists
 
+import Data.Vect
+
 -- | What is the type of this list.
 nats : ?someType
 nats = [0,1,2,3,4,5,6,7,9]
